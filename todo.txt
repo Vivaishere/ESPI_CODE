@@ -1,0 +1,24 @@
+Experiments To Do:
+
+
+1.
+- change rigid body motion adjustment to encompass either the whole selected area or large chunk on either side
+    - use the method from the plot_ux_tiff_sim from plot_disp_lines_espi_and_sim.py
+-
+
+
+
+
+?? Make addition to plot_espi-dic.py for strain difference to check that it's computing correctly.
+
+
+To do later:
+- disable image acquisition for same filename/force/displacement
+
+- Start writing up setup parameters and methodology so can use it in articles/publications
+- work on poster to show current results
+
+
+
+Figure out how to measure cropping distance from sample edges?
+
