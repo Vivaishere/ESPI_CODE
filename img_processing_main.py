@@ -88,6 +88,73 @@ def filter_and_subtract_all_sets(
             (p1[:, :, 0] - p1[:, :, 2]) ** 2
         )
 
+        # ======================================================================
+        # >>>>>>>>>>>>>>>>>>>> DEBUG: PHASE QUALITY DIAGNOSTICS <<<<<<<<<<<<<<<<<<
+        # Remove this entire block when no longer needed.
+        # ======================================================================
+
+        import matplotlib.pyplot as plt
+
+        # ----- Histogram of fringe modulation -----
+        plt.figure(figsize=(8, 5))
+        plt.hist(Im.ravel(), bins=200)
+        plt.title("Histogram of Fringe Modulation (Im)")
+        plt.xlabel("Im")
+        plt.ylabel("Pixel Count")
+        plt.grid(True)
+
+        plt.savefig(
+            os.path.join(folder, f"DEBUG_Histogram_Im_{f1:g}_to_{f2:g}.png"),
+            dpi=300,
+            bbox_inches="tight"
+        )
+        plt.close()
+
+        # ----- Image of fringe modulation -----
+        plt.figure(figsize=(8, 6))
+        plt.imshow(Im, cmap="viridis")
+        plt.colorbar(label="Im")
+        plt.title("Fringe Modulation (Im)")
+
+        plt.savefig(
+            os.path.join(folder, f"DEBUG_ModulationMap_{f1:g}_to_{f2:g}.png"),
+            dpi=300,
+            bbox_inches="tight"
+        )
+        plt.close()
+
+        # ----- Wrapped phase difference -----
+        plt.figure(figsize=(8, 6))
+        plt.imshow(psb, cmap="twilight", vmin=-np.pi, vmax=np.pi)
+        plt.colorbar(label="Phase (rad)")
+        plt.title("Wrapped Phase Difference")
+
+        plt.savefig(
+            os.path.join(folder, f"DEBUG_WrappedPhase_{f1:g}_to_{f2:g}.png"),
+            dpi=300,
+            bbox_inches="tight"
+        )
+        plt.close()
+
+                # ----- High-modulation mask -----
+        threshold = 0.10 * np.max(Im)                       # Change as desired
+
+        plt.figure(figsize=(8, 6))
+        plt.imshow(Im > threshold, cmap="gray")
+        plt.title(f"High Modulation Pixels (>{threshold:.3f})")
+
+        plt.savefig(
+            os.path.join(folder, f"DEBUG_ModulationMask_{f1:g}_to_{f2:g}.png"),
+            dpi=300,
+            bbox_inches="tight"
+        )
+        plt.close()
+
+        # ======================================================================
+        # <<<<<<<<<<<<<<<<<<<< END DEBUG: PHASE QUALITY DIAGNOSTICS <<<<<<<<<<<<<
+        # ======================================================================
+
+
         # ==================================================
         # Ensure odd filter sizes
         # ==================================================
