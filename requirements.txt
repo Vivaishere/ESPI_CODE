@@ -9,3 +9,5 @@ Pillow>=10.0,<11.0
 
 # Optional for camera acquisition scripts if your hardware SDK is installed
 # PySpin
+
+pyserial>=3.5,<4.0
