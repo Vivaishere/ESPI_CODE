@@ -123,11 +123,11 @@ def filter_and_subtract_all_sets(
         )
         plt.close()
 
-        # ----- Wrapped phase difference -----
+        # ----- Wrapped phase  -----
         plt.figure(figsize=(8, 6))
-        plt.imshow(psb, cmap="twilight", vmin=-np.pi, vmax=np.pi)
+        plt.imshow(psb, cmap="jet", vmin=-np.pi, vmax=np.pi)
         plt.colorbar(label="Phase (rad)")
-        plt.title("Wrapped Phase Difference")
+        plt.title("Wrapped Phase")
 
         plt.savefig(
             os.path.join(folder, f"DEBUG_WrappedPhase_{f1:g}_to_{f2:g}.png"),

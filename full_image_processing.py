@@ -309,28 +309,28 @@ def filter_and_subtract_all_sets(folder=None, do_displacement=True):
 
         elif filter_num == 3:
             # A) Ferreti version:
-            #ss = medfilt2d(Im * np.sin(psb), kernel)
-            #cc = medfilt2d(Im * np.cos(psb), kernel)
-            #psb_filtered = np.arctan2(ss, cc)
+            ss = medfilt2d(Im * np.sin(psb), kernel)
+            cc = medfilt2d(Im * np.cos(psb), kernel)
+            psb_filtered = np.arctan2(ss, cc)
 
             # B) generic filter version: ////// replaced previous ss and cc to not affect edges and work with NaNs ////////
-            from scipy.ndimage import generic_filter
+            # from scipy.ndimage import generic_filter
 
-            ss = generic_filter(
-                Im * np.sin(psb),
-                np.nanmedian,
-                size=(lv, lh),
-                mode="reflect"
-            )
+            # ss = generic_filter(
+            #     Im * np.sin(psb),
+            #     np.nanmedian,
+            #     size=(lv, lh),
+            #     mode="reflect"
+            # )
 
-            cc = generic_filter(
-                Im * np.cos(psb),
-                np.nanmedian,
-                size=(lv, lh),
-                mode="reflect"
-            )
+            # cc = generic_filter(
+            #     Im * np.cos(psb),
+            #     np.nanmedian,
+            #     size=(lv, lh),
+            #     mode="reflect"
+            # )
 
-            psb_filtered = np.arctan2(ss, cc)
+            # psb_filtered = np.arctan2(ss, cc)
             # //////////////////////////////////////////////////////////////////////////////////////////////////////////
 
             # C) fast version with edge preservaton and NaNs - should work (to try)/////////////////////////////////////
