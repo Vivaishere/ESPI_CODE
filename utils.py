@@ -5,6 +5,27 @@ from tkinter import filedialog
 from datetime import datetime
 import lc_control
 
+
+def get_image_data_dir():
+    """Return the folder that stores the raw/processed ESPI image data."""
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    candidates = [
+        os.path.abspath(os.path.join(script_dir, "..", "ESPI_Images", "1_RAW_new_images")),
+        os.path.abspath(os.path.join(script_dir, "ESPI_Images", "1_RAW_new_images")),
+        os.path.abspath(os.path.join(os.getcwd(), "ESPI_Images", "1_RAW_new_images")),
+        os.path.abspath(os.path.join(os.getcwd(), "1_RAW_new_images")),
+        os.path.abspath(os.path.join(script_dir, "..", "ESPI_Images")),
+        os.path.abspath(os.path.join(script_dir, "ESPI_Images")),
+        os.path.abspath(os.path.join(os.getcwd(), "ESPI_Images")),
+    ]
+
+    for candidate in candidates:
+        if os.path.isdir(candidate):
+            return candidate
+
+    return os.path.abspath(os.path.join(script_dir, "..", "ESPI_Images", "1_RAW_new_images"))
+
+
 def select_base_folder():
     root = tk.Tk()
     root.withdraw()
@@ -20,7 +41,7 @@ def select_base_folder():
     return folder
 
 def get_experiment_folder(exp_name):
-    base_dir = os.path.join(os.getcwd(), "ESPI_Images")
+    base_dir = get_image_data_dir()
 
     # Add timestamp to the experiment folder name
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")

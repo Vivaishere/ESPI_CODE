@@ -9,7 +9,7 @@ def crop_tiff_images_series(folder=None, series_prefix="", show_message=True):
     # --- File selection: single or multiple ---
     filepaths = filedialog.askopenfilenames(
         title="Select TIFF image(s) from the target folder",
-        initialdir=os.path.join(os.getcwd(), "ESPI_Images"),
+        initialdir=os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "ESPI_Images", "1_RAW_new_images")),
         filetypes=[("TIFF files", "*.tiff"), ("All files", "*.*")]
     )
     if not filepaths:

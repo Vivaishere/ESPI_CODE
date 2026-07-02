@@ -88,7 +88,7 @@ def plot_ux_tiff_sim(
     root.withdraw()
     file_paths = filedialog.askopenfilenames(
         title="Select '.tiff' images",
-        initialdir=os.path.join(os.path.dirname(__file__), "ESPI_Images"),
+        initialdir=os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "ESPI_Images", "1_RAW_new_images")),
         filetypes=[("TIFF files", "*Disp*.tiff")]
     )
     root.destroy()

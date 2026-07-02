@@ -28,7 +28,7 @@ def compute_difference_and_plot(save_fig=True, save_tiff=True, plot_lines=True):
     # Default folder
     # ---------------------------
     base_dir = os.path.dirname(__file__)
-    espi_folder = os.path.join(base_dir, "ESPI_Images")
+    espi_folder = os.path.abspath(os.path.join(base_dir, "..", "ESPI_Images", "1_RAW_new_images"))
 
     # ---------------------------
     # File selection

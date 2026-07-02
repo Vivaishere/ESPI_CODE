@@ -63,7 +63,7 @@ def select_image_sets(initial_dir=None):
 
     # Default to ESPI_Images directory if none given
     if initial_dir is None:
-        initial_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "ESPI_Images")
+        initial_dir = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "ESPI_Images", "1_RAW_new_images"))
 
     file_paths = filedialog.askopenfilenames(
         title="Select TWO images (one from each set for subtraction)",

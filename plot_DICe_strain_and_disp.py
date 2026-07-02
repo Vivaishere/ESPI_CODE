@@ -28,7 +28,7 @@ def plot_dic_dx_color(center_adjust=True, save_plot=True, save_tiff=True):
     root.withdraw()
     filename = filedialog.askopenfilename(
         title="Select DIC X-displacement file",
-        initialdir="ESPI_Images",
+        initialdir=os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "ESPI_Images", "1_RAW_new_images")),
         filetypes=[("Text files", "*.txt")]
     )
     root.destroy()
@@ -195,7 +195,7 @@ def plot_dic_dy_color(save_plot=True):
     root.withdraw()
     filename = filedialog.askopenfilename(
         title="Select DIC Y-displacement file",
-        initialdir="ESPI_Images",  # adjust path as needed
+        initialdir=os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "ESPI_Images", "1_RAW_new_images")),
         filetypes=[("Text files", "*.txt")]
     )
     root.destroy()
@@ -265,7 +265,7 @@ def plot_dic_strainxx(save_plot=True, save_tiff=True):
     root.withdraw()
     filename = filedialog.askopenfilename(
         title="Select DIC Displacement file",
-        initialdir="ESPI_Images",
+        initialdir=os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "ESPI_Images", "1_RAW_new_images")),
         filetypes=[("Text files", "*.txt")]
     )
     root.destroy()

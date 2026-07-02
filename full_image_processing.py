@@ -108,10 +108,12 @@ def select_reference_image(initial_dir=None):
     root.withdraw()
 
     if initial_dir is None:
-        initial_dir = os.path.join(
+        initial_dir = os.path.abspath(os.path.join(
             os.path.dirname(os.path.abspath(__file__)),
-            "ESPI_Images"
-        )
+            "..",
+            "ESPI_Images",
+            "1_RAW_new_images"
+        ))
 
     file_path = filedialog.askopenfilename(
         title="Select ONE image to define the set",

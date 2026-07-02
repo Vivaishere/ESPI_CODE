@@ -47,7 +47,7 @@ def compare_espi_dic_profiles(save_plot=True):
     # Default folder (ESPI_Images)
     # ---------------------------
     base_dir = os.path.dirname(__file__)
-    espi_folder = os.path.join(base_dir, "ESPI_Images")
+    espi_folder = os.path.abspath(os.path.join(base_dir, "..", "ESPI_Images", "1_RAW_new_images"))
 
     # ---------------------------
     # Select ESPI image (larger)
