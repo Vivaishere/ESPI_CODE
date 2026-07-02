@@ -44,8 +44,8 @@ def get_experiment_folder(exp_name):
     base_dir = get_image_data_dir()
 
     # Add timestamp to the experiment folder name
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    folder_name = f"{timestamp}-{exp_name}"
+    timestamp = datetime.now().strftime("%Y%m%d-%H%M%S")
+    folder_name = f"{timestamp}_{exp_name}"
 
     full_dir = os.path.join(base_dir, folder_name)
     os.makedirs(full_dir, exist_ok=True)
