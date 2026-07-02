@@ -1,3 +1,13 @@
+To Do:
+1. fix and test non sample pixel code and make it work with NaNs
+2. 
+
+
+
+
+
+
+
 Experiments To Do:
 
 

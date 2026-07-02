@@ -1,6 +1,6 @@
 from plot_disp_lines_espi import *
 from phase_series_acquisition import *
-from full_image_processing import *
+from img_processing_main import *
 from plot_espi_strain import *
 from plot_disp_lines_espi_and_sim import *
 from crop_images_2 import *
@@ -12,11 +12,11 @@ from plot_single_displacement_tiff import *
 
 
 
-capture_phase_series()             # image acquisition
+#capture_phase_series()             # image acquisition
 
 #crop_multiple_tiffs()
 
-#filter_and_subtract_all_sets(do_displacement=True)     # filter and combine, unwrap, displacement
+filter_and_subtract_all_sets(do_displacement=True, filter3_version='C')     # filter and combine, unwrap, displacement
 
 #get_displacement(save_combined_png=True, save_multi_panel=True)
 #plot_single_displacement_tiffs(colormap="jet", percentile=99.99, pixel_size_m=17e-6, save_png=True)

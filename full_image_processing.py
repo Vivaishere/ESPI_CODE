@@ -308,12 +308,12 @@ def filter_and_subtract_all_sets(folder=None, do_displacement=True):
             psb_filtered = np.arctan2(ss, cc)
 
         elif filter_num == 3:
-            # Ferreti version:
+            # A) Ferreti version:
             #ss = medfilt2d(Im * np.sin(psb), kernel)
             #cc = medfilt2d(Im * np.cos(psb), kernel)
             #psb_filtered = np.arctan2(ss, cc)
 
-            # generic filter version: ////// replaced previous ss and cc to not affect edges and work with NaNs ////////
+            # B) generic filter version: ////// replaced previous ss and cc to not affect edges and work with NaNs ////////
             from scipy.ndimage import generic_filter
 
             ss = generic_filter(
@@ -333,7 +333,7 @@ def filter_and_subtract_all_sets(folder=None, do_displacement=True):
             psb_filtered = np.arctan2(ss, cc)
             # //////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-            # fast version with edge preservaton and NaNs - should work (to try)////////////////////////////////////////
+            # C) fast version with edge preservaton and NaNs - should work (to try)/////////////////////////////////////
             # ==================================================
             # NaN mask
             # ==================================================
