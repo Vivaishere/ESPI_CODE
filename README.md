@@ -1,5 +1,5 @@
 # ESPI_CODE
-Main functions in Main.py
+## Main functions in Main.py :
 
 ### capture_phase_series()           is used for acquiring images
   - synchronization of camera and liquid crystal retarder
