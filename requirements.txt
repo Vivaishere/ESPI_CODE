@@ -1,13 +1,11 @@
-# Core scientific and image-processing dependencies used across the scripts
-numpy>=1.24,<2.0
-matplotlib>=3.8,<4.0
-scipy>=1.11,<2.0
-scikit-image>=0.22,<0.24
-imageio>=2.34,<3.0
-tifffile>=2024.2.12,<2025.0
-Pillow>=10.0,<11.0
-
-# Optional for camera acquisition scripts if your hardware SDK is installed
-# PySpin
-
+# Python 3.10-compatible dependency set for the ESPI workflow
+numpy>=2.0,<2.3
+matplotlib>=3.10,<3.11
+scipy>=1.15,<1.16
+scikit-image>=0.25,<0.26
+imageio>=2.37,<2.38
+tifffile>=2025.5,<2026.0
+Pillow>=11.3,<12.0
 pyserial>=3.5,<4.0
+
+# PySpin is provided by the local Spinnaker/FLIR SDK copy in site-packages
