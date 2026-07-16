@@ -169,7 +169,6 @@ class AcquisitionGUI:
             short = {
                 "ExposureTime": "exp",
                 "Gain": "g",
-                "Gamma": "gm",
                 "BlackLevel": "blk",
                 "ExposureAuto": "expAuto",
                 "GainAuto": "gAuto"
@@ -210,7 +209,6 @@ class AcquisitionGUI:
             else:
                 self.cam.GainAuto.SetValue(PySpin.GainAuto_Off)
                 self.cam.Gain.SetValue(float(settings.get("Gain", 0)))
-            self.cam.Gamma.SetValue(float(settings.get("Gamma", 1.0)))
             self.cam.BlackLevel.SetValue(float(settings.get("BlackLevel", 0)))
         except Exception as e:
             print(f"[WARN] Failed to apply live camera settings: {e}")
