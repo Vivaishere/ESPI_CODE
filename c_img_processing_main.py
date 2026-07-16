@@ -7,10 +7,10 @@ from skimage import io
 from scipy.signal import medfilt2d, wiener
 from scipy.ndimage import median_filter, generic_filter
 
-from phase_unwrap import unwrap_all_filter_images
-from displacement import get_displacement
+from c_phase_unwrap import unwrap_all_filter_images
+from d_displacement_calc import get_displacement
 
-from img_processing_support_functions import (
+from c_img_processing_support_functions import (
     select_reference_image,
     collect_forces_for_set,
     get_filter_strength_and_num,

@@ -7,9 +7,9 @@ import os
 import threading
 import tkinter as tk
 from tkinter import messagebox, filedialog
-from filter_and_subtract import filter_and_subtract
-from phase_unwrap import unwrap_all_filter_images
-from displacement import get_displacement
+from Other_code_files.filter_and_subtract import filter_and_subtract
+from c_phase_unwrap import unwrap_all_filter_images
+from d_displacement_calc import get_displacement
 
 
 class ImageProcessingApp:

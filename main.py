@@ -1,12 +1,12 @@
 from plot_disp_lines_espi import *
-from phase_series_acquisition import *
-from img_processing_main import *
-from plot_espi_strain import *
+from a_phase_series_acquisition import *
+from c_img_processing_main import *
+from e_plot_espi_strain import *
 from plot_disp_lines_espi_and_sim import *
-from crop_images_2 import *
-from crop_images_3 import *
-from disp_3D_plot import *
-from crop_tiffs import *
+from a__crop_images_2 import *
+from Other_code_files.crop_images_3 import *
+from plot_disp_3D_plot import *
+from Other_code_files.crop_tiffs import *
 from plot_single_displacement_tiff import *
 
 pixel_size_m = 8.4e-6

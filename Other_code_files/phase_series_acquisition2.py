@@ -3,11 +3,11 @@ import time
 from datetime import datetime
 
 import PySpin
-import lc_control
-from image_acquisition import capture_image, DEFAULT_CAMERA_SETTINGS, is_camera_connected
-from four_image_combine import four_image_combine
+import a__liq_crystal_retarder_control
+from Other_code_files.a_image_acquisition import capture_image, DEFAULT_CAMERA_SETTINGS, is_camera_connected
+from Other_code_files.four_image_combine import four_image_combine
 from Other_code_files.crop_images import *
-from utils import get_experiment_folder
+from a__utils import get_experiment_folder
 
 # -----------------------------------------------------
 # Logging setup
@@ -26,12 +26,12 @@ def log_message(message):
 # -----------------------------------------------------
 def check_lc_status(label):
     try:
-        ser = lc_control.find_device_port()
+        ser = a__liq_crystal_retarder_control.find_device_port()
         if ser is None:
             label.config(text="Not Connected", fg="red")
             return False
         else:
-            verified = lc_control.verify_connection(ser)
+            verified = a__liq_crystal_retarder_control.verify_connection(ser)
             label.config(text="Connected" if verified else "Not Connected",
                          fg="green" if verified else "red")
             try: ser.close()
@@ -272,9 +272,9 @@ class AcquisitionGUI:
         if not is_camera_connected():
             log_message("[ERROR] Camera not connected. Aborting acquisition.")
             return
-        ser = lc_control.find_device_port()
+        ser = a__liq_crystal_retarder_control.find_device_port()
         lc_connected = False
-        if ser and lc_control.verify_connection(ser):
+        if ser and a__liq_crystal_retarder_control.verify_connection(ser):
             lc_connected = True
         if not lc_connected:
             no_ret_name = f"{suffix}{load_part}"
@@ -283,8 +283,8 @@ class AcquisitionGUI:
                 log_message(f"[OK] Single image saved as: {no_ret_name}.tiff")
             return
         try:
-            lc_control.send_cmd(ser, "OM=1")
-            lc_control.send_cmd(ser, "WL=635")
+            a__liq_crystal_retarder_control.send_cmd(ser, "OM=1")
+            a__liq_crystal_retarder_control.send_cmd(ser, "WL=635")
         except Exception as e:
             log_message(f"[ERROR] Failed to initialize LC: {e}")
             try: ser.close()
@@ -293,9 +293,9 @@ class AcquisitionGUI:
         phase_to_retardance = {"000": 0, "090": int(0.25*633), "180": int(0.5*633), "270": int(0.75*633)}
         for phase_str, retardance_nm in phase_to_retardance.items():
             log_message(f"Setting retardance for phase {phase_str} → {retardance_nm} nm")
-            lc_control.send_cmd(ser, f"RE={retardance_nm}")
+            a__liq_crystal_retarder_control.send_cmd(ser, f"RE={retardance_nm}")
             while True:
-                resp = lc_control.send_cmd(ser, "RE?")
+                resp = a__liq_crystal_retarder_control.send_cmd(ser, "RE?")
                 if str(retardance_nm) in resp: break
                 time.sleep(0.01)
             filename = f"{exp_name}{suffix}{load_part}_{phase_str}"
