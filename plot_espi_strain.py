@@ -291,7 +291,7 @@ if __name__ == "__main__":
         save_tiff=False,
         pixel_size_um=17.0, # current 17.0, old 18.7
         fit_order=1,
-        gauge_sizes=(40,),
+        gauge_sizes=(20,),
         white_band=0,
         dotsize=1,
         flip_displacement_sign=False

@@ -367,8 +367,8 @@ if __name__ == "__main__":
 
     nancrop_espi_images(
         ref_pix_brightness=20,      # intensity threshold: pixels below this in reference are considered "dark"
-        nearby_pix_brightness=20,   # threshold for neighboring pixels used in local density check
-        pix_fraction=0.2,           # fraction of dark neighbors required to classify a pixel as invalid
+        nearby_pix_brightness=15,   # threshold for neighboring pixels used in local density check
+        pix_fraction=0.2,           # 0.2 fraction of dark neighbors required to classify a pixel as invalid
         pix_radius=2,               # radius (in pixels) of neighborhood used for local analysis
         radial_filter_fraction_list=[0.5, 0.5, 3/8, 3/8, 3/8], # keep <0.5 - minimum fraction of valid pixels required
         # within each radial shell for a pixel to be retained; removes floating islands / weakly supported regions

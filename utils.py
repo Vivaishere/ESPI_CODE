@@ -95,3 +95,24 @@ def check_lc_status(label):
     except Exception:
         label.config(text="Not Connected", fg="red")
         return False
+    
+
+# =========================
+# UNIQUE FILE PATH
+# =========================
+def get_unique_path(folder, filename):
+
+    base, ext = os.path.splitext(filename)
+
+    path = os.path.join(folder, filename)
+
+    counter = 1
+
+    while os.path.exists(path):
+        path = os.path.join(
+            folder,
+            f"{base}_{counter}{ext}"
+        )
+        counter += 1
+
+    return path

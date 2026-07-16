@@ -257,3 +257,71 @@ def get_filter_strength_and_num():
         result["lh"],
         result["filter_num"]
     )
+
+# ==================================================
+# DEBUG: PHASE QUALITY DIAGNOSTICS
+# ==================================================
+
+def save_phase_quality_diagnostics(folder, Im, psb, f1, f2):
+    """
+    Saves diagnostic plots for phase quality analysis.
+    """
+
+    import os
+    import numpy as np
+    import matplotlib.pyplot as plt
+
+    # ----- Histogram of fringe modulation -----
+    plt.figure(figsize=(8, 5))
+    plt.hist(Im.ravel(), bins=200)
+    plt.title("Histogram of Fringe Modulation (Im)")
+    plt.xlabel("Im")
+    plt.ylabel("Pixel Count")
+    plt.grid(True)
+
+    plt.savefig(
+        os.path.join(folder, f"DEBUG_Histogram_Im_{f1:g}_to_{f2:g}.png"),
+        dpi=300,
+        bbox_inches="tight"
+    )
+    plt.close()
+
+    # ----- Image of fringe modulation -----
+    plt.figure(figsize=(8, 6))
+    plt.imshow(Im, cmap="viridis")
+    plt.colorbar(label="Im")
+    plt.title("Fringe Modulation (Im)")
+
+    plt.savefig(
+        os.path.join(folder, f"DEBUG_ModulationMap_{f1:g}_to_{f2:g}.png"),
+        dpi=300,
+        bbox_inches="tight"
+    )
+    plt.close()
+
+    # ----- Wrapped phase -----
+    plt.figure(figsize=(8, 6))
+    plt.imshow(psb, cmap="jet", vmin=-np.pi, vmax=np.pi)
+    plt.colorbar(label="Phase (rad)")
+    plt.title("Wrapped Phase")
+
+    plt.savefig(
+        os.path.join(folder, f"DEBUG_WrappedPhase_{f1:g}_to_{f2:g}.png"),
+        dpi=300,
+        bbox_inches="tight"
+    )
+    plt.close()
+
+    # ----- High-modulation mask -----
+    threshold = 0.10 * np.max(Im)
+
+    plt.figure(figsize=(8, 6))
+    plt.imshow(Im > threshold, cmap="gray")
+    plt.title(f"High Modulation Pixels (>{threshold:.3f})")
+
+    plt.savefig(
+        os.path.join(folder, f"DEBUG_ModulationMask_{f1:g}_to_{f2:g}.png"),
+        dpi=300,
+        bbox_inches="tight"
+    )
+    plt.close()

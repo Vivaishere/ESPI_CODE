@@ -6,6 +6,7 @@ from tkinter import Tk, filedialog
 from skimage import io
 import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
+from utils import get_unique_path
 
 
 # =========================================================
@@ -201,7 +202,8 @@ def plot_ux_combined_tiff(
 # =========================================================
 def plot_ux_sum_tiff(
     height_mm=0.0,
-    save_plot=True
+    save_plot=True,
+    pixel_size_m=8.4e-6
 ):
     """
     Plots:
@@ -231,7 +233,7 @@ def plot_ux_sum_tiff(
     # ---------------------------
     # CONSTANTS
     # ---------------------------
-    pixel_size_m = 17e-6
+    pixel_size_m = pixel_size_m
 
     images = []
     labels = []
@@ -298,7 +300,7 @@ def plot_ux_sum_tiff(
         ax.plot(
             x_mm,
             line,
-            linewidth=1.2,
+            linewidth=1,
             alpha=0.8,
             label=labels[i]
         )
@@ -307,7 +309,7 @@ def plot_ux_sum_tiff(
     ax.plot(
         x_mm,
         sum_line,
-        linewidth=2.5,
+        linewidth=1,
         color="black",
         label="SUM"
     )
@@ -364,7 +366,7 @@ def plot_ux_sum_tiff(
 
         folder = os.path.dirname(file_paths[0])
 
-        save_path = os.path.join(
+        save_path = get_unique_path(
             folder,
             f"SUM_Line_at_{actual_height_mm:.3f}mm.png"
         )

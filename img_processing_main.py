@@ -14,13 +14,17 @@ from img_processing_support_functions import (
     select_reference_image,
     collect_forces_for_set,
     get_filter_strength_and_num,
+    save_phase_quality_diagnostics
 )
 
 
 def filter_and_subtract_all_sets(
         folder=None,
         do_displacement=True,
-        filter3_version="B"):
+        filter3_version="B",
+        include_diagnostics=False,
+        pixel_size_m=8.4e-6
+        ):
 
     lv, lh, filter_num = get_filter_strength_and_num()
 
@@ -88,71 +92,12 @@ def filter_and_subtract_all_sets(
             (p1[:, :, 0] - p1[:, :, 2]) ** 2
         )
 
-        # ======================================================================
-        # >>>>>>>>>>>>>>>>>>>> DEBUG: PHASE QUALITY DIAGNOSTICS <<<<<<<<<<<<<<<<<<
-        # Remove this entire block when no longer needed.
-        # ======================================================================
+        # ==================================================
+        # DEBUG: PHASE QUALITY DIAGNOSTICS
+        # ==================================================
 
-        import matplotlib.pyplot as plt
-
-        # ----- Histogram of fringe modulation -----
-        plt.figure(figsize=(8, 5))
-        plt.hist(Im.ravel(), bins=200)
-        plt.title("Histogram of Fringe Modulation (Im)")
-        plt.xlabel("Im")
-        plt.ylabel("Pixel Count")
-        plt.grid(True)
-
-        plt.savefig(
-            os.path.join(folder, f"DEBUG_Histogram_Im_{f1:g}_to_{f2:g}.png"),
-            dpi=300,
-            bbox_inches="tight"
-        )
-        plt.close()
-
-        # ----- Image of fringe modulation -----
-        plt.figure(figsize=(8, 6))
-        plt.imshow(Im, cmap="viridis")
-        plt.colorbar(label="Im")
-        plt.title("Fringe Modulation (Im)")
-
-        plt.savefig(
-            os.path.join(folder, f"DEBUG_ModulationMap_{f1:g}_to_{f2:g}.png"),
-            dpi=300,
-            bbox_inches="tight"
-        )
-        plt.close()
-
-        # ----- Wrapped phase  -----
-        plt.figure(figsize=(8, 6))
-        plt.imshow(psb, cmap="jet", vmin=-np.pi, vmax=np.pi)
-        plt.colorbar(label="Phase (rad)")
-        plt.title("Wrapped Phase")
-
-        plt.savefig(
-            os.path.join(folder, f"DEBUG_WrappedPhase_{f1:g}_to_{f2:g}.png"),
-            dpi=300,
-            bbox_inches="tight"
-        )
-        plt.close()
-
-                # ----- High-modulation mask -----
-        threshold = 0.10 * np.max(Im)                       # Change as desired
-
-        plt.figure(figsize=(8, 6))
-        plt.imshow(Im > threshold, cmap="gray")
-        plt.title(f"High Modulation Pixels (>{threshold:.3f})")
-
-        plt.savefig(
-            os.path.join(folder, f"DEBUG_ModulationMask_{f1:g}_to_{f2:g}.png"),
-            dpi=300,
-            bbox_inches="tight"
-        )
-        plt.close()
-
-        # ======================================================================
-        # <<<<<<<<<<<<<<<<<<<< END DEBUG: PHASE QUALITY DIAGNOSTICS <<<<<<<<<<<<<
-        # ======================================================================
+        if include_diagnostics:
+            save_phase_quality_diagnostics(folder, Im, psb, f1, f2)
 
 
         # ==================================================
@@ -286,7 +231,7 @@ def filter_and_subtract_all_sets(
 
         print("\n📐 Starting displacement calculation...")
 
-        disp_count = get_displacement(folder)
+        disp_count = get_displacement(folder, pixel_size_m=pixel_size_m)
 
         if disp_count == 0:
 
