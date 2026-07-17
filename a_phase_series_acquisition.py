@@ -189,7 +189,7 @@ class AcquisitionGUI:
         exp_name = self.exp_name_entry.get().strip() or "experiment"
         settings = self.collect_settings()
         suffix = self.build_suffix(settings)
-        load = self.load_entry.get().strip() or "0N"
+        load = self.load_entry.get().strip() or "0000"
         preview = f"{exp_name}{suffix}_{load}.tiff"
         self.preview_value.config(text=preview)
 
@@ -228,7 +228,7 @@ class AcquisitionGUI:
         self.no_load_btn.state(["disabled"])
         self.settings_result = self.collect_settings()
         self.start_mode = "no_load"
-        self.load_label_text = "0N"
+        self.load_label_text = "0000"
         self.run_acquisition()
         log_message("[INFO] No load acquisition started. GUI remains open.")
 
@@ -240,7 +240,11 @@ class AcquisitionGUI:
         self.images_taken = True
         self.settings_result = self.collect_settings()
         self.start_mode = "custom_load"
-        self.load_label_text = load_text
+        # Zero-pad purely numeric loads to 3 digits
+        if load_text.isdigit():
+            self.load_label_text = f"{int(load_text):04d}"
+        else:
+            self.load_label_text = load_text
         self.run_acquisition()
         log_message(f"[INFO] Custom load acquisition started: {load_text}")
 
