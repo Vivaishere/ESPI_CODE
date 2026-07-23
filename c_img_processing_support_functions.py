@@ -38,6 +38,9 @@ def parse_filename(fname):
     elif re.match(r"^nancrop.*-crop.*$", parts[0]):
         crop = parts.pop(0)
 
+    elif re.match(r"^crackcrop.*-crop.*$", parts[0]):
+        crop = parts.pop(0)
+
     if len(parts) != 3:
         raise ValueError(
             f"Unexpected filename format:\n{fname}\n"

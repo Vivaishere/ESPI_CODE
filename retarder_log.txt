@@ -1,3 +1,4271 @@
 [WARN] No serial ports detected.
 [WARN] No serial ports detected.
 [WARN] No serial ports detected.
+Trying port: COM3
+Sent: *idn? | Response: 
+[WARN] Could not verify LC connection. Response: OK
+[ERROR] No LCC2415 device found on any serial port.
+Trying port: COM3
+Sent: *idn? | Response: 
+[WARN] Could not verify LC connection. Response: OK
+[ERROR] No LCC2415 device found on any serial port.
+Trying port: COM3
+Sent: *idn? | Response: 
+[WARN] Could not verify LC connection. Response: OK
+[ERROR] No LCC2415 device found on any serial port.
+Trying port: COM3
+Sent: *idn? | Response: 
+[WARN] Could not verify LC connection. Response: OK
+[ERROR] No LCC2415 device found on any serial port.
+Trying port: COM3
+Sent: *idn? | Response: 
+[WARN] Could not verify LC connection. Response: OK
+[ERROR] No LCC2415 device found on any serial port.
+Trying port: COM3
+Sent: *idn? | Response: 
+[WARN] Could not verify LC connection. Response: OK
+[ERROR] No LCC2415 device found on any serial port.
+Trying port: COM3
+Sent: *idn? | Response: 
+[WARN] Could not verify LC connection. Response: OK
+[ERROR] No LCC2415 device found on any serial port.
+Trying port: COM3
+Sent: *idn? | Response: 
+[WARN] Could not verify LC connection. Response: OK
+[ERROR] No LCC2415 device found on any serial port.
+Trying port: COM3
+Sent: *idn? | Response: 
+[WARN] Could not verify LC connection. Response: OK
+[ERROR] No LCC2415 device found on any serial port.
+Trying port: COM3
+Sent: *idn? | Response: 
+[WARN] Could not verify LC connection. Response: OK
+[ERROR] No LCC2415 device found on any serial port.
+Trying port: COM3
+Sent: *idn? | Response: 
+[WARN] Could not verify LC connection. Response: OK
+[ERROR] No LCC2415 device found on any serial port.
+Trying port: COM3
+Sent: *idn? | Response: 
+[WARN] Could not verify LC connection. Response: OK
+[ERROR] No LCC2415 device found on any serial port.
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] LC Retarder found at COM4
+Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+Sent: OM=1 | Response: >
+Sent: WL=635 | Response: >
+Sent: RE=0 | Response: >
+Sent: RE? | Response: RE=0>
+Sent: RE=158 | Response: >
+Sent: RE? | Response: RE=158>
+Sent: RE=316 | Response: >
+Sent: RE? | Response: RE=316>
+Sent: RE=474 | Response: >
+Sent: RE? | Response: RE=474>
+Trying port: COM3
+Sent: *idn? | Response: 
+[WARN] Could not verify LC connection. Response: OK
+[ERROR] No LCC2415 device found on any serial port.

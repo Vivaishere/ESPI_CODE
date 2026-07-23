@@ -1,4 +1,4 @@
-#displacement_calc.py
+# d_displacement_calc.py
 
 import os
 import math
@@ -16,6 +16,10 @@ from d_displacement_support_functions import (
     save_combined_figure
 )
 
+from e_displacement_animation import (
+    create_displacement_gif
+)
+
 
 # =========================
 # MAIN FUNCTION
@@ -30,6 +34,7 @@ def get_displacement(
         save_multi_panel=True,
         use_rbm_for_multi_panel=True,
         save_combined_png=True,
+        create_gif=True,
         angle_deg=27.2,
         pixel_size_m=8.4e-6
 ):
@@ -56,6 +61,8 @@ def get_displacement(
     coefficient = -(wavelength_nm * 1e-9) / (
         4 * np.pi * np.sin(np.radians(angle_deg))
     )
+
+    rbm_folder = []
 
     # =========================
     # FIND FILES (ONLY UW SET)
@@ -145,10 +152,27 @@ def get_displacement(
 
             # ---- SAVE RBM ADJUSTED ----
             if save_rbm_adjusted:
+                # Create displacement output folder
+                rbm_folder = os.path.join(
+                    base_folder,
+                    f"Disp-RBM-adjusted_{set_name}"
+                )
+
+                os.makedirs(
+                    rbm_folder,
+                    exist_ok=True
+                )
+
+                rbm_path = os.path.join(
+                    rbm_folder,
+                    f"Disp-RBM-adj_{clean_base}.tiff"
+                )
+
                 io.imsave(
-                    os.path.join(base_folder, f"Disp-RBM-adj_{clean_base}.tiff"),
+                    rbm_path,
                     adjusted.astype(np.float32)
                 )
+
 
         # =========================
         # MULTI-PANEL
@@ -190,6 +214,18 @@ def get_displacement(
             )
 
         print(f"✔ Finished set: {set_name} ({load_range})")
+
+
+        # =========================
+        # CREATE GIF
+        # =========================
+
+        if create_gif:
+            create_displacement_gif(
+                folder=rbm_folder,
+                pixel_size_m=pixel_size_m,
+                cmap=colormap
+            )
 
 
 if __name__ == "__main__":

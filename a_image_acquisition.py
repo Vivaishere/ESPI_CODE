@@ -13,8 +13,7 @@ DEFAULT_CAMERA_SETTINGS = {
     "ExposureTime": 10000,   # µs 13000 max
     "GainAuto": "Off",
     "Gain": 1,            # dB
-    "Gamma": 1,
-    "BlackLevel": 1,      # %
+    "BlackLevel": 0,      # %
 }
 
 # =====================================================
@@ -82,6 +81,29 @@ def capture_image(name: str, settings: dict = None, exp_name: str = "experiment"
         cam.Init()
         nodemap = cam.GetNodeMap()
 
+        # --------------------------------------------------
+        # Allow long exposures
+        # --------------------------------------------------
+        try:
+            node_frame_enable = PySpin.CBooleanPtr(
+                nodemap.GetNode("AcquisitionFrameRateEnable")
+            )
+
+            if PySpin.IsAvailable(node_frame_enable) and PySpin.IsWritable(node_frame_enable):
+                node_frame_enable.SetValue(True)
+
+                node_frame_rate = PySpin.CFloatPtr(
+                    nodemap.GetNode("AcquisitionFrameRate")
+                )
+
+                node_frame_rate.SetValue(5.0)  # 5 fps = up to ~200 ms exposure
+
+                print(f"[OK] Frame rate set to {node_frame_rate.GetValue()} Hz")
+
+        except Exception as e:
+            print(f"[WARN] Frame rate configuration failed: {e}")
+
+
         # --- Acquisition Mode ---
         try:
             node_acq_mode = PySpin.CEnumerationPtr(nodemap.GetNode("AcquisitionMode"))
@@ -115,14 +137,6 @@ def capture_image(name: str, settings: dict = None, exp_name: str = "experiment"
             print(f"[OK] Gain: {settings['Gain']} dB")
         except Exception as e:
             print(f"[ERROR] Gain configuration failed: {e}")
-
-        # --- Gamma ---
-        try:
-            node_gamma = PySpin.CFloatPtr(nodemap.GetNode("Gamma"))
-            node_gamma.SetValue(settings["Gamma"])
-            print(f"[OK] Gamma: {settings['Gamma']}")
-        except Exception as e:
-            print(f"[ERROR] Gamma configuration failed: {e}")
 
         # --- Black Level ---
         try:
