@@ -242,11 +242,14 @@ def filter_and_subtract_all_sets(
         else:
 
             print(
-                f"✅ Displacement complete "
-                f"({disp_count} images)."
+                f"✅ Displacement complete."
             )
 
-    return folder
+    print(
+        f"✅ Processing complete."
+    )
+
+
 
 
 # ==========================================================
