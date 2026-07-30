@@ -91,10 +91,10 @@ def circular_kernel(radius):
     )
 
 # --------------------------------------------------
-# Find automatic crack seed
+# Find automatic crack seeds
 # --------------------------------------------------
 
-def find_seed(
+def find_seeds(
         image,
         seed_threshold=15,
         min_component_size=100
@@ -104,14 +104,16 @@ def find_seed(
 
     labels, n = label(candidates)
 
-    if n == 0:
-        return np.unravel_index(
-            np.argmin(image),
-            image.shape
-        )
+    seeds = []
 
-    best_component = None
-    best_mean = np.inf
+    if n == 0:
+
+        return [
+            np.unravel_index(
+                np.argmin(image),
+                image.shape
+            )
+        ]
 
     for i in range(1, n + 1):
 
@@ -120,26 +122,23 @@ def find_seed(
         if component.sum() < min_component_size:
             continue
 
-        mean_intensity = image[component].mean()
+        rows, cols = np.nonzero(component)
 
-        if mean_intensity < best_mean:
+        center_row = int(rows.mean())
+        center_col = int(cols.mean())
 
-            best_mean = mean_intensity
-            best_component = component
+        seeds.append((center_row, center_col))
 
-    if best_component is None:
+    if len(seeds) == 0:
 
-        return np.unravel_index(
-            np.argmin(image),
-            image.shape
+        seeds.append(
+            np.unravel_index(
+                np.argmin(image),
+                image.shape
+            )
         )
 
-    rows, cols = np.nonzero(best_component)
-
-    center_row = int(rows.mean())
-    center_col = int(cols.mean())
-
-    return center_row, center_col
+    return seeds
 
 
 # --------------------------------------------------
@@ -253,28 +252,15 @@ def clean_crack_mask(
 
     cleaned = np.zeros_like(mask)
 
-    largest = 0
-
-    largest_mask = None
+    cleaned = np.zeros_like(mask)
 
     for i in range(1, n + 1):
 
         component = labels == i
 
-        size = component.sum()
+        if component.sum() >= min_component_size:
 
-        if size < min_component_size:
-            continue
-
-        if size > largest:
-
-            largest = size
-            largest_mask = component
-
-    if largest_mask is None:
-        return cleaned
-
-    cleaned = largest_mask
+            cleaned |= component
 
     if dilation_radius > 0:
 
@@ -303,35 +289,43 @@ def build_crack_mask(
         min_component_size=100,
 ):
 
-    seed = find_seed(
+    seeds = find_seeds(
         image,
         seed_threshold=seed_threshold,
         min_component_size=min_component_size
     )
 
-    print(f"Seed located at {seed}")
+    print(f"Found {len(seeds)} seed region(s).")
 
-    mask = grow_crack_region(
-        image,
-        seed,
-        grow_threshold=grow_threshold,
-        similarity_threshold=similarity_threshold,
-        valley_radius=valley_radius,
-    )
+    mask = np.zeros_like(image, dtype=bool)
 
-    mask = clean_crack_mask(
-        mask,
-        bridge_radius=bridge_radius,
-        dilation_radius=dilation_radius,
-        min_component_size=min_component_size,
-    )
+    for i, seed in enumerate(seeds):
 
-    print(
-        f"Crack size = {mask.sum()} pixels "
-        f"({100*mask.mean():.3f}% of image)"
-    )
+        print(f"Growing region {i+1}: {seed}")
 
-    return mask
+        region = grow_crack_region(
+            image,
+            seed,
+            grow_threshold=grow_threshold,
+            similarity_threshold=similarity_threshold,
+            valley_radius=valley_radius,
+        )
+
+        mask |= region
+
+        mask = clean_crack_mask(
+            mask,
+            bridge_radius=bridge_radius,
+            dilation_radius=dilation_radius,
+            min_component_size=min_component_size,
+        )
+
+        print(
+            f"Crack size = {mask.sum()} pixels "
+            f"({100*mask.mean():.3f}% of image)"
+        )
+
+        return mask
 
 # --------------------------------------------------
 # Main crack crop function
