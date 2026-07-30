@@ -313,19 +313,19 @@ def build_crack_mask(
 
         mask |= region
 
-        mask = clean_crack_mask(
-            mask,
-            bridge_radius=bridge_radius,
-            dilation_radius=dilation_radius,
-            min_component_size=min_component_size,
-        )
+    mask = clean_crack_mask(
+        mask,
+        bridge_radius=bridge_radius,
+        dilation_radius=dilation_radius,
+        min_component_size=min_component_size,
+    )
 
-        print(
-            f"Crack size = {mask.sum()} pixels "
-            f"({100*mask.mean():.3f}% of image)"
-        )
+    print(
+        f"Crack size = {mask.sum()} pixels "
+        f"({100*mask.mean():.3f}% of image)"
+    )
 
-        return mask
+    return mask
 
 # --------------------------------------------------
 # Main crack crop function
