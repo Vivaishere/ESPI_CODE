@@ -671,16 +671,25 @@ def crackcrop_all_espi_sets(
 
 
     # --------------------------------------------------
-    # Determine set name
+    # Determine exact set name from selected image
     # --------------------------------------------------
 
-    first_image_name = os.path.basename(
-        filepaths[0]
-    )
+    first_image_name = os.path.basename(filepaths[0])
+    parts = first_image_name.split("_")
 
-    exp_name = get_set_name(
-        first_image_name
-    )
+    if parts[0].startswith("crop"):
+        # Keep the crop identifier as part of the set name
+        # Example:
+        # crop1_test2hole-exp7000_0020_090.tiff
+        # -> crop1_test2hole-exp7000
+        exp_name = "_".join(parts[:2])
+
+    else:
+        # Normal non-cropped set
+        # Example:
+        # test2hole-exp7000_0020_090.tiff
+        # -> test2hole-exp7000
+        exp_name = parts[0]
 
 
     print()
@@ -703,18 +712,26 @@ def crackcrop_all_espi_sets(
         )
     )
 
+    image_paths = []
 
-    image_paths = [
+    for f in all_files:
 
-        f for f in all_files
+        filename = os.path.basename(f)
+        parts = filename.split("_")
 
-        if len(
-            os.path.basename(f).split("_")
-        ) >= 3
+        if len(parts) < 3:
+            continue
 
-        and get_set_name(f) == exp_name
+        if parts[0].startswith("crop"):
+            # crop1_test2hole-exp7000_...
+            file_set_name = "_".join(parts[:2])
 
-    ]
+        else:
+            # test2hole-exp7000_...
+            file_set_name = parts[0]
+
+        if file_set_name == exp_name:
+            image_paths.append(f)
 
 
     if not image_paths:
