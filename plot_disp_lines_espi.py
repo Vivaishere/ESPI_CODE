@@ -67,7 +67,7 @@ def plot_ux_combined_tiff(
 
     file_path = filedialog.askopenfilename(
         title="Select COMBINED displacement TIFF",
-        filetypes=[("TIFF files", "*COMBINED*.tiff")]
+        filetypes=[("TIFF files", "*.tiff")]
     )
 
     root.destroy()

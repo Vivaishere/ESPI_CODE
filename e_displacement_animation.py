@@ -321,7 +321,7 @@ def create_displacement_gif(
     )
 
     # 0.5 seconds per load step, not per interpolated frame
-    frame_time = 0.5 / interpolation_frames
+    frame_time = 0.2 / interpolation_frames
 
     durations = [
         int(frame_time * 1000)

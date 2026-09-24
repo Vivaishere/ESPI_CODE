@@ -832,16 +832,26 @@ def crackcrop_all_espi_sets(
 if __name__ == "__main__":
 
     # for previewing one image
-    #crackcrop_espi_images(process_single_image=True)
+    # crackcrop_espi_images(
+    #     image_paths=None,
+    #     seed_threshold=15,
+    #     grow_threshold=20,
+    #     similarity_threshold=15,
+    #     valley_radius=1,
+    #     bridge_radius=1,
+    #     dilation_radius=0,
+    #     min_component_size=100,
+    #     process_single_image=True
+    # )
 
     # for processing sets
 
     crackcrop_all_espi_sets(
         seed_threshold=5,
-        grow_threshold=30, # 30
-        similarity_threshold=20, # 40
+        grow_threshold=20, # 30
+        similarity_threshold=15, # 20
         valley_radius=1,
         bridge_radius=1,
         dilation_radius=0,
-        min_component_size=100
-    )
+        min_component_size=100,
+        )

@@ -1,4 +1,7 @@
 To Do:
+
+- if multi panel image has too many, make it make multiple of them, limiting each one to 15 images etc.
+
 1. fix and test non sample pixel code and make it work with NaNs
 2. for displacement images created, make them go into another nested folder (just the Disp_RBM_adj)
 3. for displacement gif image series make them save into nesteed folder as well.
