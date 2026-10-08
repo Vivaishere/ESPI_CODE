@@ -122,18 +122,38 @@ def compute_strain_xx(
         )[0]
 
         # -------------------------------------------------
-        # EXTRACT LOAD PAIR
+        # EXTRACT FILTER + CROP + LOAD PAIR
         #
         # Example:
         #
-        # Disp-RBM-adj_..._20-16
+        # Disp-RBM-adj_filter20_crop3_20-16.tiff
         #
-        # becomes:
-        #
-        # 20-16
+        # filter_part = filter20
+        # crop_part   = crop3
+        # load_pair   = 20-16
         # -------------------------------------------------
 
-        load_pair = u_stem.split("_")[-1]
+        name_parts = u_stem.split("_")
+
+        filter_part = next(
+            (
+                part
+                for part in name_parts
+                if part.startswith("filter")
+            ),
+            ""
+        )
+
+        crop_part = next(
+            (
+                part
+                for part in name_parts
+                if part.startswith("crop")
+            ),
+            ""
+        )
+
+        load_pair = name_parts[-1]
 
         # =================================================
         # GAUGE LOOP
@@ -371,6 +391,8 @@ def compute_strain_xx(
                 f"fit{fit_order}_"
                 f"ssig{ssig}_"
                 f"edge{edge_exclusion_pixels}_"
+                f"{filter_part}_"
+                f"{crop_part}_"
                 f"{load_pair}"
             )
 
@@ -746,10 +768,10 @@ if __name__ == "__main__":
 
     compute_strain_xx(
         save_plot=True,
-        save_tiff=False,
-        pixel_size_um=17.0,  # current 17.0, old 18.7
+        save_tiff=True,
+        pixel_size_um=8.4,  # current 8.4, 17.0, old 18.7
         fit_order=1,
-        gauge_sizes=(20,),
+        gauge_sizes=(20,), # filter/slope calculation area size
         white_band=0,
         dotsize=1,
         ssig=0,

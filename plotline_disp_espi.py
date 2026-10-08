@@ -134,7 +134,7 @@ def plot_ux_combined_tiff(
     ax.axhline(0, color='black', linewidth=1)
 
     # Grid formatting
-    ax.xaxis.set_major_locator(mticker.MultipleLocator(5))
+    ax.xaxis.set_major_locator(mticker.MultipleLocator(1))
     ax.xaxis.set_minor_locator(mticker.MultipleLocator(1))
 
     ax.yaxis.set_major_locator(mticker.MultipleLocator(1))
@@ -329,8 +329,8 @@ def plot_ux_sum_tiff(
     ax.xaxis.set_major_locator(mticker.MultipleLocator(5))
     ax.xaxis.set_minor_locator(mticker.MultipleLocator(1))
 
-    ax.yaxis.set_major_locator(mticker.MultipleLocator(1))
-    ax.yaxis.set_minor_locator(mticker.MultipleLocator(0.1)) # y axis ticks
+    ax.yaxis.set_major_locator(mticker.MultipleLocator(0.1))
+    ax.yaxis.set_minor_locator(mticker.MultipleLocator(0.01)) # y axis ticks
 
     ax.minorticks_on()
 
@@ -386,7 +386,7 @@ def plot_ux_sum_tiff(
 
 
 # =========================================================
-# SINGLE TIFF LINE PLOT + QUADRATIC FIT
+# SINGLE TIFF LINE PLOT + 0-2 order FIT
 # =========================================================
 def plot_ux_singleline_tiff(
     height_mm=0.0,
@@ -412,6 +412,7 @@ def plot_ux_singleline_tiff(
 
     fit_order : int
         Polynomial order.
+        0 = no displacement (linear at y=0)
         1 = linear
         2 = quadratic
         3 = cubic, etc.
@@ -490,16 +491,24 @@ def plot_ux_singleline_tiff(
         return
 
     # =====================================================
-    # POLYNOMIAL BEST FIT
+    # POLYNOMIAL / ZERO-DISPLACEMENT FIT
     # =====================================================
 
-    coefficients = np.polyfit(
-        x_fit,
-        y_fit,
-        fit_order
-    )
+    if fit_order == 0:
 
-    polynomial = np.poly1d(coefficients)
+        # Force zero-displacement reference line
+        coefficients = np.array([0.0])
+        polynomial = np.poly1d(coefficients)
+
+    else:
+
+        coefficients = np.polyfit(
+            x_fit,
+            y_fit,
+            fit_order
+        )
+
+        polynomial = np.poly1d(coefficients)
 
     # Fitted values at the measured points
     y_fit_predicted = polynomial(x_fit)
@@ -559,7 +568,7 @@ def plot_ux_singleline_tiff(
         y_fit_plot,
         linewidth=2.5,
         linestyle="--",
-        label=f"Quadratic fit  |  SD = {sd:.4f} µm"
+        label=f"Fit order = {fit_order}  |  SD = {sd:.4f} µm"
     )
 
     # Mark fit boundaries
@@ -597,19 +606,19 @@ def plot_ux_singleline_tiff(
     # Grid formatting
     # ---------------------------
     ax.xaxis.set_major_locator(
-        mticker.MultipleLocator(5)
+        mticker.MultipleLocator(1)
     )
 
     ax.xaxis.set_minor_locator(
-        mticker.MultipleLocator(1)
+        mticker.MultipleLocator(0.1)
     )
 
     ax.yaxis.set_major_locator(
-        mticker.MultipleLocator(1)
+        mticker.MultipleLocator(0.1)
     )
 
     ax.yaxis.set_minor_locator(
-        mticker.MultipleLocator(0.1)
+        mticker.MultipleLocator(0.01)
     )
 
     ax.grid(
@@ -637,7 +646,7 @@ def plot_ux_singleline_tiff(
     ax.set_title(
         f"{os.path.basename(file_path)}\n"
         f"Line at {actual_height_mm:.3f} mm   |   "
-        f"Quadratic fit: {x_min:g} < X < {x_max:g} mm   |   "
+        f"Fit range: {x_min:g} < X < {x_max:g} mm   |   "
         f"SD = {sd:.4f} µm"
     )
 
@@ -696,8 +705,8 @@ if __name__ == "__main__":
 
     plot_ux_singleline_tiff(
     height_mm=2,
-    pixel_size_m=17.0e-6,
-    x_bounds=(-10, 10),
-    fit_order=2,
+    pixel_size_m=8.4e-6,
+    x_bounds=(-8, 8),
+    fit_order=0,
     save_plot=True
     )
