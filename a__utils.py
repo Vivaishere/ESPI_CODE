@@ -8,6 +8,10 @@ import a__liq_crystal_retarder_control
 
 def get_image_data_dir():
     """Return the folder that stores the raw/processed ESPI image data."""
+    env_dir = os.environ.get("ESPI_IMAGE_DATA_DIR", "").strip()
+    if env_dir and os.path.isdir(env_dir):
+        return os.path.abspath(env_dir)
+
     script_dir = os.path.dirname(os.path.abspath(__file__))
     candidates = [
         os.path.abspath(os.path.join(script_dir, "..", "ESPI_Images", "1_RAW_new_images")),

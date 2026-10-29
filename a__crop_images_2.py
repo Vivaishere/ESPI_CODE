@@ -6,10 +6,14 @@ from tkinter import messagebox, filedialog
 from PIL import Image, ImageTk
 
 def crop_tiff_images_series(folder=None, series_prefix="", show_message=True):
+    initial_dir = folder if folder and os.path.isdir(folder) else os.path.abspath(
+        os.path.join(os.path.dirname(__file__), "..", "ESPI_Images", "1_RAW_new_images")
+    )
+
     # --- File selection: single or multiple ---
     filepaths = filedialog.askopenfilenames(
         title="Select TIFF image(s) from the target folder",
-        initialdir=os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "ESPI_Images", "1_RAW_new_images")),
+        initialdir=initial_dir,
         filetypes=[("TIFF files", "*.tiff"), ("All files", "*.*")]
     )
     if not filepaths:

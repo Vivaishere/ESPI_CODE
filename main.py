@@ -15,7 +15,7 @@ pixel_size_m = 8.4e-6
 
 if __name__ == "__main__":
 
-    #capture_phase_series()             # image acquisition
+    capture_phase_series()             # image acquisition
 
     #crackcrop_all_espi_sets(grow_threshold=20, similarity_threshold=15, min_component_size=100)
 
@@ -33,7 +33,7 @@ if __name__ == "__main__":
     
     # noise plotting
     #plot_ux_singleline_tiff(height_mm=2, pixel_size_m=pixel_size_m, x_bounds=(-4, 4), fit_order=0, save_plot=True) # to plot SD and noise for disp images
-    plot_strain_line_tiffs(pixel_size_m=pixel_size_m, height_mm=2, x_bounds=(-4, 4), fit_order=0)
+    #plot_strain_line_tiffs(pixel_size_m=pixel_size_m, height_mm=2, x_bounds=(-4, 4), fit_order=0)
 
     #crop_multiple_tiffs()
     #crop_tiff_images_series()          # select 1 for series or multiples for just that selection

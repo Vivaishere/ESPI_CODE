@@ -13729,3 +13729,4 @@ Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
 [OK] LC Retarder found at COM4
 Sent: *idn? | Response: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
 [OK] Connected to device: >THORLABS LCC2415-VIS HW1.0 FW1.0 SN03412779>
+[WARN] No serial ports detected.

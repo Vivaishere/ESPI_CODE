@@ -1,0 +1,65 @@
+{
+  "operation_params": {
+    "compute_strain": {
+      "dotsize": "2",
+      "edge_exclusion_pixels": "10",
+      "fit_order": "1",
+      "gauge_size": "40",
+      "save_plot": "True",
+      "save_tiff": "True",
+      "white_band": "0"
+    },
+    "crack_crop": {},
+    "crop_images": {},
+    "intensity_to_displacement": {
+      "filter3_version": "B",
+      "filter_num": "3",
+      "include_diagnostics": "False",
+      "lh": "11",
+      "lv": "11"
+    },
+    "plot_3d": {
+      "colormap": "jet",
+      "xy_rot": "-60",
+      "z_angle": "10"
+    },
+    "plot_disp_line_noise": {
+      "fit_order": "0",
+      "height_mm": "2",
+      "save_plot": "True",
+      "x_max": "4",
+      "x_min": "-4"
+    },
+    "plot_disp_vs_sim": {
+      "center_adjust": "True",
+      "dist_from_center_mm": "-7",
+      "include_sim": "True",
+      "include_sum": "True",
+      "save_plot": "True",
+      "sim_radius": "12"
+    },
+    "plot_displacement_map": {
+      "colormap": "jet",
+      "percentile": "99.9",
+      "save_png": "True"
+    },
+    "plot_strain_line": {
+      "fit_order": "0",
+      "height_mm": "2",
+      "save_plot": "True",
+      "x_max": "4",
+      "x_min": "-4"
+    }
+  },
+  "shared_params": {
+    "bridge_radius": "1",
+    "dilation_radius": "0",
+    "grow_threshold": "20",
+    "min_component_size": "100",
+    "pixel_size_m": "8.4e-06",
+    "seed_threshold": "5",
+    "similarity_threshold": "15",
+    "valley_radius": "1"
+  },
+  "working_directory": "F:/____V____/_ETS Master's/__ESPI_CODING_SPACE/ESPI_Images"
+}

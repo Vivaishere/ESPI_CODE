@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "espi-toolkit"
+version = "0.1.0"
+description = "ESPI Control Center for acquisition and processing workflows"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "ESPI Toolkit User" }
+]
+dependencies = [
+  "numpy>=2.0,<2.3",
+  "matplotlib>=3.10,<3.11",
+  "scipy>=1.15,<1.16",
+  "scikit-image>=0.25,<0.26",
+  "imageio>=2.37,<2.38",
+  "tifffile>=2025.5,<2026.0",
+  "Pillow>=11.3,<12.0",
+  "pyserial>=3.5,<4.0"
+]
+
+[project.scripts]
+espi-toolkit = "espi_toolkit.main:run"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

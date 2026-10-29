@@ -23,10 +23,14 @@ def filter_and_subtract_all_sets(
         do_displacement=True,
         filter3_version="B",
         include_diagnostics=False,
-        pixel_size_m=8.4e-6
+        pixel_size_m=8.4e-6,
+        lv=None,
+        lh=None,
+        filter_num=None
         ):
 
-    lv, lh, filter_num = get_filter_strength_and_num()
+    if lv is None or lh is None or filter_num is None:
+        lv, lh, filter_num = get_filter_strength_and_num()
 
     # ---- User selects ONE image ----
     folder, prefix, crop = select_reference_image(folder)

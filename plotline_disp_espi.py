@@ -704,9 +704,9 @@ if __name__ == "__main__":
     # plot_ux_sum_tiff()
 
     plot_ux_singleline_tiff(
-    height_mm=2,
+    height_mm=10,
     pixel_size_m=8.4e-6,
     x_bounds=(-8, 8),
-    fit_order=0,
+    fit_order=2,
     save_plot=True
     )

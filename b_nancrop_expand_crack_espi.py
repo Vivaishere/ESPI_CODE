@@ -627,6 +627,7 @@ def crackcrop_espi_images(
 # --------------------------------------------------
 
 def crackcrop_all_espi_sets(
+    folder=None,
         seed_threshold=5,
         grow_threshold=30,
         similarity_threshold=40,
@@ -641,18 +642,20 @@ def crackcrop_all_espi_sets(
     # Select image(s)
     # --------------------------------------------------
 
+    initial_dir = folder if folder and os.path.isdir(folder) else os.path.abspath(
+        os.path.join(
+            os.path.dirname(__file__),
+            "..",
+            "ESPI_Images",
+            "1_RAW_new_images"
+        )
+    )
+
     filepaths = filedialog.askopenfilenames(
 
         title="Select ESPI image(s) from target set",
 
-        initialdir=os.path.abspath(
-            os.path.join(
-                os.path.dirname(__file__),
-                "..",
-                "ESPI_Images",
-                "1_RAW_new_images"
-            )
-        ),
+        initialdir=initial_dir,
 
         filetypes=[
             ("TIFF files", "*.tiff"),

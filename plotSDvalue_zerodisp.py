@@ -123,7 +123,7 @@ def calculate_image_sd(
 
 def calculate_image_sd_grid(
     image,
-    outer_pixels=40,
+    outer_pixels=0,
     grid_rows=4,
     grid_cols=4
 ):
@@ -232,7 +232,7 @@ def create_noise_sd_map(
     image,
     filename,
     folder,
-    outer_pixels=40,
+    outer_pixels=0,
     grid_size=8
 ):
     """
@@ -675,7 +675,8 @@ def create_noise_sd_map(
 
 def calculate_sd_multiple_tiffs(
     outer_pixels=40,
-    save_png=True
+    save_png=True,
+    grid_size=8
 ):
 
     # -----------------------------------------------------
@@ -755,7 +756,7 @@ def calculate_sd_multiple_tiffs(
                 filename=filename,
                 folder=folder,
                 outer_pixels=outer_pixels,
-                grid_size=8
+                grid_size=grid_size
             )
 
         except Exception as e:
@@ -1061,5 +1062,6 @@ if __name__ == "__main__":
 
     calculate_sd_multiple_tiffs(
         outer_pixels=40,
-        save_png=True
+        save_png=True,
+        grid_size=8
     )
