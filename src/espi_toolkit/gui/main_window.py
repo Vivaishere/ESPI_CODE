@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import queue
 import threading
+import textwrap
 import traceback
 from pathlib import Path
 import tkinter as tk
@@ -30,8 +31,17 @@ class ESPIControlCenterApp:
 
         self.root = tk.Tk()
         self.root.title("ESPI Control Center")
-        self.root.geometry("1280x860")
-        self.root.minsize(1120, 760)
+        self.root.geometry("1220x800")
+        self.root.minsize(1220, 800)
+
+        # Custom style for section headings and borders
+        self.style = ttk.Style(self.root)
+
+        self.style.configure(
+            "Black.TLabelframe.Label",
+            foreground="black",
+            font=("Segoe UI", 12, "bold")
+        )
 
         self.shared_defs = get_shared_param_defs()
         self.operations = get_operation_defs()
@@ -44,7 +54,8 @@ class ESPIControlCenterApp:
         self._build_acquisition_section()
         self._build_working_directory_section()
         self._build_shared_parameter_section()
-        self._build_operations_section()
+        self._build_section_d_operations()
+        self._build_section_e_operations()
         self._build_status_section()
 
         self._load_state_from_config()
@@ -67,7 +78,6 @@ class ESPIControlCenterApp:
 
         self.content.bind("<Configure>", self._on_content_configure)
         self.canvas.bind("<Configure>", self._on_canvas_configure)
-
         self.canvas.bind_all("<MouseWheel>", self._on_mousewheel)
 
     def _on_content_configure(self, _event: tk.Event) -> None:
@@ -83,10 +93,15 @@ class ESPIControlCenterApp:
         title = ttk.Label(self.content, text="ESPI Control Center", font=("Segoe UI", 20, "bold"))
         title.grid(row=0, column=0, sticky="w", padx=14, pady=(12, 8))
 
+    def _build_section_title(self, row: int, text: str) -> int:
+        lbl = ttk.Label(self.content, text=text, font=("Segoe UI", 12, "bold"))
+        lbl.grid(row=row, column=0, sticky="w", padx=14, pady=(10, 2))
+        return row + 1
+
     def _build_acquisition_section(self) -> None:
-        frame = ttk.LabelFrame(self.content, text="Section A: Image Acquisition")
+        frame = ttk.LabelFrame(self.content, text="Section A: Image Acquisition", style="Black.TLabelframe")
         frame.grid(row=1, column=0, sticky="ew", padx=14, pady=8)
-        frame.columnconfigure(0, weight=1)
+        frame.columnconfigure(0, weight=1) 
 
         self.launch_button = ttk.Button(
             frame,
@@ -96,7 +111,7 @@ class ESPIControlCenterApp:
         self.launch_button.grid(row=0, column=0, sticky="w", padx=10, pady=10)
 
     def _build_working_directory_section(self) -> None:
-        frame = ttk.LabelFrame(self.content, text="Section B: Shared Working Directory")
+        frame = ttk.LabelFrame(self.content, text="Section B: Shared Working Directory", style="Black.TLabelframe")
         frame.grid(row=2, column=0, sticky="ew", padx=14, pady=8)
         frame.columnconfigure(1, weight=1)
 
@@ -106,31 +121,61 @@ class ESPIControlCenterApp:
         self.workdir_entry.grid(row=0, column=1, sticky="ew", padx=6, pady=10)
 
         browse_btn = ttk.Button(frame, text="Browse", command=self._browse_workdir)
-        browse_btn.grid(row=0, column=2, sticky="e", padx=10, pady=10)
+        browse_btn.grid(row=1, column=0, sticky="w", padx=6, pady=(2, 10))
 
+    
     def _build_shared_parameter_section(self) -> None:
-        frame = ttk.LabelFrame(self.content, text="Section C: Shared Processing Parameters")
+        frame = ttk.LabelFrame(self.content, text="Section C: Shared Processing Parameters", style="Black.TLabelframe")
         frame.grid(row=3, column=0, sticky="ew", padx=14, pady=8)
+        frame.columnconfigure(1, weight=1)
 
-        cols = 2
         for idx, pdef in enumerate(self.shared_defs):
-            row = idx // cols
-            col = (idx % cols) * 2
-            frame.columnconfigure(col + 1, weight=1)
+            ttk.Label(frame, text=pdef.label).grid(
+                row=idx * 2, column=0, sticky="w", padx=8, pady=4
+            )
 
-            ttk.Label(frame, text=pdef.label).grid(row=row, column=col, sticky="w", padx=8, pady=6)
             var = tk.StringVar(value=str(pdef.default))
             self.shared_vars[pdef.key] = var
-            ttk.Entry(frame, textvariable=var, width=22).grid(row=row, column=col + 1, sticky="ew", padx=6, pady=6)
 
-    def _build_operations_section(self) -> None:
-        frame = ttk.LabelFrame(self.content, text="Section D: Processing Functions (Unique Parameters Inline)")
+            ttk.Entry(frame, textvariable=var, width=24).grid(
+                row=idx * 2, column=1, sticky="w", padx=6, pady=4
+            )
+
+            if pdef.help_text:
+                ttk.Label(
+                    frame,
+                    text=pdef.help_text,
+                    foreground="#555",
+                    justify="left",
+                    wraplength=700,
+                ).grid(
+                    row=idx * 2 + 1,
+                    column=0,
+                    columnspan=2,
+                    sticky="w",
+                    padx=8,
+                    pady=(0, 6),
+                )
+
+
+    def _build_section_d_operations(self) -> None:
+        frame = ttk.LabelFrame(self.content, text="Section D: Core Processing Functions", style="Black.TLabelframe")
         frame.grid(row=4, column=0, sticky="ew", padx=14, pady=8)
+        self._build_operations_in_frame(frame, section_key="D")
+
+    def _build_section_e_operations(self) -> None:
+        frame = ttk.LabelFrame(self.content, text="Section E: Additional Plotting and Comparison Functions", style="Black.TLabelframe")
+        frame.grid(row=5, column=0, sticky="ew", padx=14, pady=8)
+        self._build_operations_in_frame(frame, section_key="E")
+
+    def _build_operations_in_frame(self, frame: ttk.LabelFrame, section_key: str) -> None:
         frame.columnconfigure(0, weight=0)
         frame.columnconfigure(1, weight=1)
 
+        section_ops = [op for op in self.operations if op.section == section_key]
+
         grouped: dict[str, list] = {}
-        for op in self.operations:
+        for op in section_ops:
             grouped.setdefault(op.category, []).append(op)
 
         row_i = 0
@@ -147,11 +192,19 @@ class ESPIControlCenterApp:
                 btn.grid(row=0, column=0, sticky="w")
                 self._operation_buttons.append(btn)
 
-                desc = ttk.Label(left, text=op.description, foreground="#444")
+                desc = ttk.Label(
+                    left,
+                    text=self._wrap_text_by_line(op.description, width=100),
+                    foreground="#444",
+                    justify="left",
+                    wraplength=520,
+                )
                 desc.grid(row=1, column=0, sticky="w", pady=(2, 0))
 
                 right = ttk.Frame(frame)
                 right.grid(row=row_i, column=1, sticky="ew", padx=8, pady=6)
+                right.columnconfigure(1, weight=0)
+                right.columnconfigure(2, weight=1)
 
                 unique_vars: dict[str, tk.StringVar] = {}
                 for up_idx, up in enumerate(op.unique_params):
@@ -165,18 +218,32 @@ class ESPIControlCenterApp:
                             values=[str(c) for c in up.choices],
                             state="readonly",
                             textvariable=v,
-                            width=18,
+                            width=20,
                         )
                         combo.grid(row=up_idx, column=1, sticky="w", pady=2)
                     else:
-                        ttk.Entry(right, textvariable=v, width=20).grid(row=up_idx, column=1, sticky="w", pady=2)
+                        ttk.Entry(right, textvariable=v, width=22).grid(row=up_idx, column=1, sticky="w", pady=2)
+
+                    ttk.Label(
+                        right,
+                        text=self._wrap_text_by_line(up.help_text, width=100),
+                        foreground="#555",
+                        justify="left",
+                        wraplength=520,
+                    ).grid(
+                        row=up_idx,
+                        column=2,
+                        sticky="w",
+                        padx=(8, 0),
+                        pady=2,
+                    )
 
                 self.operation_unique_vars[op.key] = unique_vars
                 row_i += 1
 
     def _build_status_section(self) -> None:
         frame = ttk.LabelFrame(self.content, text="Status / Progress / Errors")
-        frame.grid(row=5, column=0, sticky="ew", padx=14, pady=(8, 14))
+        frame.grid(row=6, column=0, sticky="ew", padx=14, pady=(8, 14))
         frame.columnconfigure(0, weight=1)
 
         self.status_var = tk.StringVar(value="Ready")
@@ -323,3 +390,25 @@ class ESPIControlCenterApp:
             pass
 
         self.root.after(150, self._poll_worker_queue)
+
+    def _wrap_text_by_line(self, text: str, width: int = 100) -> str:
+        """Wrap each existing line to a maximum character width while preserving manual line breaks."""
+        if not text:
+            return ""
+
+        wrapped_lines: list[str] = []
+        for line in text.splitlines():
+            if not line.strip():
+                wrapped_lines.append("")
+                continue
+
+            wrapped_lines.extend(
+                textwrap.wrap(
+                    line,
+                    width=width,
+                    break_long_words=False,
+                    break_on_hyphens=False,
+                )
+            )
+
+        return "\n".join(wrapped_lines)
