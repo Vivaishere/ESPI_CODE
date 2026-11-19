@@ -14,7 +14,8 @@ from c_img_processing_support_functions import (
     select_reference_image,
     collect_forces_for_set,
     get_filter_strength_and_num,
-    save_phase_quality_diagnostics
+    save_phase_quality_diagnostics,
+    remove_floating_pixels
 )
 
 
@@ -26,7 +27,8 @@ def filter_and_subtract_all_sets(
         pixel_size_m=8.4e-6,
         lv=None,
         lh=None,
-        filter_num=None
+        filter_num=None,
+        min_region_size=2
         ):
 
     if lv is None or lh is None or filter_num is None:
@@ -74,6 +76,21 @@ def filter_and_subtract_all_sets(
              for f in set2_files],
             axis=2
         )
+
+        # ==================================================
+        # Create combined NaN mask from original TIFF images
+        # ==================================================
+
+        image1_mask = np.isfinite(p1[:, :, 0])
+        image2_mask = np.isfinite(p2[:, :, 0])
+
+        # Pixel must be valid in BOTH images
+        combined_mask = image1_mask & image2_mask
+
+        print(
+            f"Combined invalid pixels: "
+            f"{np.count_nonzero(~combined_mask)}"
+)
 
         # ==================================================
         # Phase subtraction
@@ -171,6 +188,21 @@ def filter_and_subtract_all_sets(
         else:
 
             raise ValueError("Invalid filter number")
+        
+        # ==================================================
+        # Remove floating pixels
+        # ==================================================
+
+        psb_filtered = remove_floating_pixels(
+            psb_filtered,
+            min_region_size=min_region_size
+        )
+        
+        # ==================================================
+        # Apply original combined NaN mask
+        # ==================================================
+
+        psb_filtered[~combined_mask] = np.nan
 
         # ==================================================
         # Save

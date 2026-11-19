@@ -7,7 +7,7 @@ from tkinter import ttk, filedialog
 
 import numpy as np
 from scipy.signal import medfilt2d
-from scipy.ndimage import median_filter, generic_filter
+from scipy.ndimage import median_filter, generic_filter, label
 
 # Define the 4 phases
 PHASES = ["000", "090", "180", "270"]
@@ -328,3 +328,36 @@ def save_phase_quality_diagnostics(folder, Im, psb, f1, f2):
         bbox_inches="tight"
     )
     plt.close()
+
+
+    from scipy.ndimage import label
+
+
+def remove_floating_pixels(image, min_region_size=2):
+
+    """
+    Remove isolated valid pixel regions surrounded by NaNs.
+
+    Regions containing fewer than min_region_size connected
+    valid pixels are converted to NaN.
+    """
+
+    valid = np.isfinite(image)
+
+    # Identify connected regions of valid pixels
+    labels, num_features = label(valid)
+
+    # Count pixels in each region
+    sizes = np.bincount(labels.ravel())
+
+    # Identify regions smaller than the minimum size
+    small_regions = sizes < min_region_size
+
+    # Background label 0 must not be included
+    small_regions[0] = False
+
+    # Remove small regions
+    cleaned = image.copy()
+    cleaned[small_regions[labels]] = np.nan
+
+    return cleaned
